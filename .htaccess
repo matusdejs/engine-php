@@ -1,0 +1,7 @@
+RewriteEngine on
+
+ErrorDocument 404 /index.php?route=404
+
+RewriteBase /
+
+RewriteRule ^seo-static-string/?$ index.php?route=controller-name [L]
